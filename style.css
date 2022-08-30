@@ -6,8 +6,8 @@ body {
   max-width: 800px;
   font-size: 10pt;
 }
-.info{
-    display: flex;
+.info {
+  display: flex;
 }
 div#topcontent {
   color: white;
@@ -29,24 +29,8 @@ div#leftcontent {
   flex: 1 1 400px;
   font-family: Arial, Helvetica, sans-serif;
 }
-#working-stuff h2,
-#traits h2,
-#contact h2,
-#profile h2,
-#aboutme h2 {
+.section h2 {
   font-family: "Times New Roman", Times, serif;
-}
-#working-stuff {
-  border-bottom: white solid 1px;
-}
-#traits {
-  border-bottom: white solid 1px;
-}
-#contact {
-  border-bottom: white solid 1px;
-}
-#profile {
-  border-bottom: white solid 1px;
 }
 div#rightcontent {
   border-left: white solid 1px;
@@ -54,4 +38,7 @@ div#rightcontent {
   font-family: Arial, Helvetica, sans-serif;
   flex: 1 1 400px;
   padding: 1em;
+}
+.section {
+  border-bottom: white solid 1px;
 }
