@@ -6,9 +6,11 @@ body {
   max-width: 800px;
   font-size: 10pt;
 }
+
 .info {
   display: flex;
 }
+
 div#topcontent {
   color: white;
   text-align: center;
@@ -23,15 +25,14 @@ div#topcontent h1 {
 div#topcontent h2 {
   margin: 4px;
 }
+
 div#leftcontent {
   color: white;
   padding: 1em;
   flex: 1 1 400px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.section h2 {
-  font-family: "Times New Roman", Times, serif;
-}
+
 div#rightcontent {
   border-left: white solid 1px;
   color: white;
@@ -39,6 +40,10 @@ div#rightcontent {
   flex: 1 1 400px;
   padding: 1em;
 }
+
 .section {
   border-bottom: white solid 1px;
+}
+.section h2 {
+  font-family: "Times New Roman", Times, serif;
 }
